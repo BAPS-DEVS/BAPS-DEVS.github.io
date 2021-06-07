@@ -1,10 +1,3 @@
-/**
-* Template Name: Restaurantly - v3.3.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -178,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
+  /* top: 20px; */
 }
 
 #header.header-scrolled {
@@ -188,11 +181,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 32px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -264,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .navbar a i, .navbar a:focus i {
@@ -775,8 +768,8 @@ section {
   position: absolute;
   left: 20px;
   top: 20px;
-  width: 60px;
-  height: 60px;
+  width:40px;
+  height: 40px;
   z-index: 1;
   content: '';
   border-left: 5px solid #cda45e;
@@ -787,13 +780,13 @@ section {
 .about .about-img::after {
   position: absolute;
   right: 20px;
-  bottom: 20px;
-  width: 60px;
-  height: 60px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
   z-index: 2;
   content: '';
   border-right: 5px solid #cda45e;
-  border-bottom: 5px solid #cda45e;
+  border-top: 5px solid #cda45e;
   transition: .5s;
 }
 
@@ -808,7 +801,7 @@ section {
 
 .about .about-img:hover::after {
   right: 10px;
-  bottom: 10px;
+  top: 10px;
 }
 
 .about .content h3 {
@@ -1086,12 +1079,12 @@ section {
 
 .events .event-item h3 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 30px;
   color: #cda45e;
 }
 
 .events .event-item .price {
-  font-size: 26px;
+  font-size: 18px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
